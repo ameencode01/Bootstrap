@@ -8,11 +8,73 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        
+        <style>
+            img {
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+                border: 4px solid #16739e;
+                border-radius: 50%;
+            }
+            
+            h1 {
+                background: linear-gradient(to right, #16739e, #c9c9c9);
+            }
+        </style>
     </head>
     <body>
-        <div class="container">
-        <h1 style="background: linear-gradient(to right, orangered, grey);">hello</h1>
+        <div class="container mt-5">
+            <div class="text-center">
+                <h1 class="display-4" style="font-weight: bold;">Our Team at SynergySoft</h1>
+                <p class="lead text-muted">Empowering solutions, together.</p>
+
+                <blockquote class="blockquote text-center">
+                    <p><em>"Coming together is a beginning. Keeping together is progress. Working together is success."</em></p>
+                    <footer class="blockquote-footer">Henry Ford</footer>
+                </blockquote>
+            </div>
+            <div class="mt-5">
+                <h3>Our Core Values</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">🤝 Collaboration</li>
+                    <li class="list-group-item">💡 Innovation</li>
+                    <li class="list-group-item">🏆 Excellence</li>
+                </ul>
+            </div>
+            <div class="text-center mt-5">
+                <img src="https://img.freepik.com/premium-photo/three-business-people-standing-white-background_474601-8447.jpg" alt="team photo" class="team-photo">
+                <p class="mt-1 text-muted">Team Synergy in action</p>
+            </div>
+            <div class="table-responsive">
+                <h3 class="mb-3">Team Members</h3>
+                <table class="table table-bordered table-hover">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alice Johnson</td>
+                            <td>Project Manager</td>
+                            <td class="table-success">Active</td>
+                        </tr>
+                        <tr>
+                            <td>Mark Rivera</td>
+                            <td>UI/UX Designer</td>
+                            <td class="table-warning">On Leave</td>
+                        </tr>
+                        <tr>
+                            <td>Sophia Lee</td>
+                            <td>Backend Developer</td>
+                            <td class="table-danger">Resigned</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show"><button type="button" class="close" data-dismiss="alert">&times;</button>⚠️ One or more team members are currently not active.</div>
         </div>
     </body>
 </html>
