@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Course Progress Dashboard</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h2 class="mb-4">Support - Frequently Asked Questions</h2>
+            
+            <div id = "accordion">
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                            How can I contact customer support?
+                        </a>
+                    </div>
+                    <div id = "collapseOne" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">You can contact us via email at <strong>support@yourcompany.com</strong> or call us at <strong>+1 (123) 456-7890</strong>.</div>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                            What are your support hours?
+                        </a>
+                    </div>
+                    <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">Our support is available <strong>Monday to Friday, 9 AM - 6 PM (Local Time).</strong></div>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                            How do I track my support request?
+                        </a>
+                    </div>
+                    <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">Once you submit a support request, you'll receive a ticket number by email. You can use it to check the status at any time.</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mt-5">Meet Our Support Team</h2>
+
+            <div class="card-deck mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Jane Doe</h4>
+                        <p class="card-text">Technical Support Lead</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">call</a>
+                                <a href="#" class="dropdown-item">Email</a>
+                                <a href="#" class="dropdown-item">Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">John Smith</h4>
+                        <p class="card-text">Customer Success Manager</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">call</a>
+                                <a href="#" class="dropdown-item">Email</a>
+                                <a href="#" class="dropdown-item">Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Emily Chen</h4>
+                        <p class="card-text">Support Specialist</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">call</a>
+                                <a href="#" class="dropdown-item">Email</a>
+                                <a href="#" class="dropdown-item">Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </body>
+</html>
