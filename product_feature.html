@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Product Feature Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container mt-4">
+
+            <h1 class="text-center mb-4">Featured Products</h1>
+
+            <div class="card-deck mt-3">
+                <div class="card">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/71Xt+TOL5wL.jpg" alt="EcoSmart Water Bottle" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">EcoSmart Water Bottle</h4>
+                        <p class="card-text">Stay hydrated with this BPA-free, insulated water bottle designed to keep your drinks hot or cold for hours.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <div class="dropdown mt-3">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Extra Options</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Add to Wishlist</a>
+                                <a href="#" class="dropdown-item">Compare</a>
+                                <a href="#" class="dropdown-item">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/51wiKgY3qTL._UF1000,1000_QL80_.jpg" alt="NoiseBlock Wireless Earbuds" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">NoiseBlock Wireless Earbuds</h4>
+                        <p class="card-text">Experience superior sound quality and active noise cancellation in a compact, wireless design perfect for everyday use.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <div class="dropdown mt-3">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Extra Options</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Add to Wishlist</a>
+                                <a href="#" class="dropdown-item">Compare</a>
+                                <a href="#" class="dropdown-item">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://revolutioninc.in/wp-content/uploads/2021/04/powerlight_table_lamp_ssk-tl-8605l_.jpg" alt="LumiDesk LED Lamp" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">LumiDesk LED Lamp</h4>
+                        <p class="card-text">A sleek and modern desk lamp with adjustable brightness and color temperature to reduce eye strain during long work sessions.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                        <div class="dropdown mt-3">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Extra Options</button>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Add to Wishlist</a>
+                                <a href="#" class="dropdown-item">Compare</a>
+                                <a href="#" class="dropdown-item">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="mt-4 mb-3">Product FAQs</h2>
+            
+            <div id = "accordion">
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                            What is the return policy?
+                        </a>
+                    </div>
+                    <div id = "collapseOne" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">We offer a 30-day return policy from the date of purchase. Please ensure the product is unused and in original packaging.</div>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                            Are these products covered under warranty?
+                        </a>
+                    </div>
+                    <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">Yes, all our products come with a 1-year manufacturer warranty covering defects and malfunctions.</div>
+                    </div>
+                </div>
+
+                <div class = "card">
+                    <div class = "card-header">
+                        <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                            Do you offer international shipping?
+                        </a>
+                    </div>
+                    <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                        <div class = "card-body">Yes, we ship globally. Shipping charges and delivery times vary based on location.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
