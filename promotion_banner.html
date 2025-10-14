@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Travel Promotional Banner</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container mt-5 mb-5">
+            <div id="demo1" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo1" data-slide-to="1"></li>
+                    <li data-target="#demo1" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner rounded shadow">
+                    <div class="carousel-item active">
+                        <img src="https://wallpapers.com/images/hd/japan-landscape-7oivwrn8hrzce9uv.jpg" alt="Japan" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h2 class="text-white">Japan</h2>
+                            <p class="text-white">Experience the harmony of tradition and technology.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Book Now</button>
+                        </div>   
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpapers.com/images/hd/4k-nature-beach-sg1kc49sl9s8z3eo.jpg" alt="Thailand" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h2 class="text-white">Thailand</h2>
+                            <p class="text-white">Tropical beaches, golden temples, unforgettable flavors.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Book Now</button>
+                        </div>   
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpapers.com/images/hd/dubai-4k-sunset-view-n1rdf1w7yebl3zkg.jpg" alt="Dubai" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h2 class="text-white">Dubai</h2>
+                            <p class="text-white">Where luxury meets adventure in the desert.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">Book Now</button>
+                        </div>   
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo1" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <div class="modal" id="modal1">
+                <div class="modal-dialog  modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">More details about Japan</h1>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>From Ancient Temples to Neon Dreams — Welcome to Japan</h4>
+                            <p>Japan is a captivating blend of ancient tradition and futuristic innovation, offering travelers a uniquely rich and diverse experience. From the tranquil temples and geisha streets of Kyoto to the neon-lit skyscrapers and buzzing energy of Tokyo, every corner of the country tells a story. Visitors can marvel at the iconic beauty of Mount Fuji, wander through bamboo forests, and relax in natural hot springs nestled in the mountains. Japan’s seasonal charm is unmatched—cherry blossoms in the spring and fiery autumn leaves create postcard-perfect scenery. Food lovers will delight in world-renowned cuisine, from sushi and ramen to street-side takoyaki and matcha desserts. Whether you're riding a bullet train between cities, staying in a traditional ryokan, or exploring quirky themed cafés, Japan is a destination where every moment feels extraordinary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="modal-dialog  modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">More details about Thailand</h1>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Discover Thailand — Where Every Day is a Journey</h4>
+                            <p>Thailand is a vibrant destination where tropical beauty, rich culture, and warm hospitality come together in perfect harmony. From the white-sand beaches of Phuket and Krabi to the golden temples and bustling markets of Bangkok and Chiang Mai, Thailand offers something for every traveler. You can island-hop through turquoise waters, trek through lush jungles, or visit ancient ruins and sacred sites. The country's flavorful cuisine—think spicy curries, fresh seafood, and sweet mango sticky rice—is a journey in itself. Whether you're watching a sunset from a beachfront bungalow, exploring floating markets, or learning to cook Thai dishes with locals, Thailand promises unforgettable experiences full of color, flavor, and adventure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="modal-dialog  modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">More details about Dubai</h1>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Discover Dubai — The Jewel of the Middle East</h4>
+                            <p>Dubai is a dazzling fusion of luxury, innovation, and desert adventure, offering an experience unlike anywhere else in the world. Towering skyscrapers like the Burj Khalifa pierce the skyline, while vast golden dunes stretch just beyond the city's edge, ready for thrilling safaris and camel rides. You can shop in sprawling modern malls or traditional souks filled with spices, gold, and handcrafted treasures. Dubai's world-class hospitality is matched by its diverse attractions—man-made islands, indoor ski resorts, waterfront promenades, and fine dining with views of the Arabian Gulf. Whether you're relaxing at a beach club, exploring futuristic architecture, or sailing past the cityscape on a dhow cruise, Dubai offers a perfect mix of relaxation, excitement, and unforgettable luxury.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
